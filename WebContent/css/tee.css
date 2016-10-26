@@ -1,0 +1,241 @@
+#tab{
+	width:100%;
+	height:430px;
+	margin:60px auto;
+	position: relative;
+
+}
+#tab .wrap{
+	position: absolute;
+	height:60px; 
+	line-height: 60px;
+	border-bottom:1px solid #ccc;
+	
+}
+#tab .wrap li{
+	float: left;
+	width:150px;
+	height:60px;
+	text-align: center;
+	margin-bottom: 20px;
+	border-bottom: 2px solid #67C1B2;
+	list-style: none;
+
+}
+#tab .wrap li a{
+	color:#000;
+	font-size: 18px;
+	font-weight: 200px;
+}
+
+#tab .wrap li a:hover{
+	color:#67C1B2;
+}
+
+#tab .num{
+	width: 100%;
+	margin:0 auto;
+	padding-bottom:30px; 
+	position: absolute;
+	top:100px; 
+	left:0; 
+	display: none;
+	/* border:1px solid #ccc; */
+}
+#tab .num table{
+	width: 100%;
+	border:solid #ccc; 
+	border-width:1px 0px 0px 1px;
+
+}
+
+#tab .num table td{
+	border:solid #ccc; 
+	border-width:0px 1px 1px 0px; 
+	padding:10px 50px;
+}
+
+
+
+
+#tab .form{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 20px 10px;
+	/* margin-left: 35px; */
+	margin-top: 10px;
+    list-style: none;
+	
+}
+#tab .form label{
+	display: block;
+	width: 280px;
+	height: 30px;
+	line-height: 30px;
+	
+	
+}
+#tab .form form{margin-left: 30px;}
+
+#tab .form li{
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 8px;
+	list-style:none;
+
+	
+}
+#tab .form .user, .form .email{
+	width: 280px;
+	height: 25px;
+	border-radius: 3px;
+	border:none;
+	
+}
+
+ #tab .form textarea{
+	width: 280px;
+	margin-bottom: 10px;
+	
+}
+ #tab .form .btn{
+	width: 80px;
+	height: 30px;
+	text-align: center;
+	line-height: 15px;
+}
+
+
+
+ #tab .num .ms_mode{
+	width: 100%;
+	height: auto;
+	overflow: auto;
+	margin:20px 0;
+	border: 1px solid rgba(215,215,215,0.7);
+	padding: 15px;
+	
+
+}
+
+ #tab .num .ms_mode img{
+	display: block;
+	width: 55px;
+	height: 55px;
+	float: left;
+	margin-right: 20px;
+	
+}
+ #tab .num .ms_mode .right{
+	float: left;
+	width: 450px;
+}
+ #tab .num .ms_mode .right a{
+	display:inline-block;
+	height: 20px;
+	line-height: 20px;
+	text-decoration: none;
+	color: #1ABC9C;
+	margin-bottom: 10px;
+
+}
+ #tab .num .ms_mode .right .con_left{
+	/* width: 600px; */
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+ #tab .num .ms_mode .right .con_left a{
+	margin-left: 5px;
+}
+ #tab .num .ms_mode .right .con_left a:hover{
+	color: #666;
+}
+
+ #tab .num .ms_mode p{
+	
+	height: auto;
+	margin-bottom: 10px;
+	line-height: 25px;	
+}
+
+.item-price .mode{
+	display: inline-block;
+	width: 350px;
+	height:50px;
+	line-height: 50px;
+	border-bottom: 1px solid #ccc;
+
+}
+.item-price .mode span{
+	display:inline-block;
+	width:90px;
+}
+.item-price .mode p{
+	display: inline-block;
+	width: 200px;
+}
+
+
+/*comment*/
+#comment{
+	width:100%;
+	margin:30px auto;
+	height:40px;
+	line-height:40px;
+}
+#comment span{
+	display:inline-block;
+	width:60px;
+	/* border:1px solid #ccc;
+	border-radius:4px; */
+	text-align:center;
+	margin-right:10px;
+	font-size:18px;
+}
+#comment .com_txt{
+	width:85%;	/* 
+	border:none;*/ 
+	border:1px solid #ccc;
+	border-radius:4px;
+	margin-right:20px;
+}
+#comment .com_btn{
+	width:60px;
+	height:35px;
+	line-height:35px;
+	text-align:center;
+	border:none;
+	border:1px solid #ccc;
+	border-radius:4px;
+	background:#FAA781;
+	
+}
+
+/*checkOut*/
+.checkout{
+	width:100%;
+	height:80px;
+	margin-top:80px;
+}
+.checkout input{
+	width:140px;
+	height:60px;
+	line-height:60px;
+	text-align:center;
+	color:#fff;
+	border:none;
+	font-size:18px;
+	border-radius:10px;
+	background:#C40000;
+}
+.checkout .car{
+	margin:0 10% 0 21%; 
+	
+	
+}
+
+
+
+

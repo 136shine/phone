@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<package name="ims" namespace="/" extends="struts-default">
+		<action name="login" class="com.action.LoginAction">
+			<result name="error">/index.jsp</result>
+			<result name="success" type="redirect">/main.jsp</result>
+			<result name="logout">/index.jsp</result>
+		</action>
+		<action name="supply" class="com.action.SupplyAction">
+		</action>
+		
+		
+	</package>
+	
+	
+	<package name="cityInfo" namespace="/typelist" extends="struts-default">
+		<action name="goindex" class="com.action.IndexAction">
+			<result name="index">/GoodsInfo.jsp</result>
+		</action>
+
+
+	</package>
+		<include file="struts-jfreechart.xml"/>
+</struts>
